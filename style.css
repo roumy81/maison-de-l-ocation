@@ -1,0 +1,105 @@
+body
+{
+    background-color: rgb(110, 156, 187);
+    border-radius: 20px;
+    opacity: 100%;
+}
+
+.maison
+{
+    font-size: 20px;
+    padding-left: 20Px;
+    margin-right: 10px;
+}
+ ul
+{
+  
+ display: flex;
+ list-style: none;
+}
+.imag p
+{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   display: flex;
+   float: left;
+   padding-left: 10px;   
+}
+:hover
+{
+    color: #cfb4f5;
+}
+.tet
+{
+    width: 50%; ;
+    height: 50%;
+    display: flex;
+    border-radius: 10px;
+}
+.zz
+{
+    display: flex;
+    margin-left:20px ;
+}
+.imag img
+{
+    
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+   
+}
+footer
+{
+    background-color:  #855c8b;
+  text-align: center;
+padding-top: 20px;
+
+}
+header
+{
+    background-color:#855c8b ;
+    width: 100%;
+    height: auto;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.aa
+{
+    margin-right: 5px;
+}
+.bas
+{
+    background-color:  #855c8b;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+#envoyer
+{
+    margin-left: 45%;
+    margin-top: 20px;
+    background-color: #855c8b;
+    color: white;
+}
+@media screen and (max-width: 1024px)
+{
+    header
+    {
+        width: 100%;
+    }
+}
+   
+
+
+    
+
